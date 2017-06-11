@@ -1,0 +1,25 @@
+<!--  EIS404HOLDINGPAGEv0.001start -->
+<html>
+<head>
+<title><!--#echo var="SERVER_NAME" -->: 404 Not Found</title>
+</head>
+<style>
+html,body,td,tr,th {
+ background-color: white;
+ font-family: Verdana, Arial, sans-serif;
+ font-size : 10px;
+}
+th {
+ font-weight: bold;
+}
+</style>
+<body>
+<table border="0" cellspacing="1" cellpadding="1">
+<tr><td valign="top" align="center">
+<p><h1>404: Page Not Found</h1></p>
+<p>Sorry, the file you requested has not been found. This may be because the link you followed is out of date or inaccurate.</p>
+<p>If you are the account holder of this website, this may be because you have mis-spelt a page of your website or included capitalisation (it is recommended that all files should be in lower case as the server is case sensitive). You can also replace this page via your cPanel control using the "Error Pages" section. You can access your <a href="http://www.freevirtualservers.com">Free Virtual Servers Web Hosting</a> cPanel control panel via <a href="http://www.freevirtualservers.com/login">http://www.freevirtualservers.com/login</a>.</p>
+<iframe height="900" width="100%" src="http://www.malkm.com/?dn=<!--#echo var="SERVER_NAME" -->&pid=1POAJBJUM" align="middle" frameborder="0" marginwidth="0" marginheight="0" scrolling="auto"></iframe>
+</body>
+</html>
+<!--  EIS404HOLDINGPAGEv0.001end -->

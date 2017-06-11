@@ -1,0 +1,211 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+body {
+font-family:Arial, Helvetica, sans-serif;
+font-size:0.9em;
+background-color:#FFC;/*CEFAF6;*/
+}
+
+form
+{
+float:right;
+}
+
+#container {
+	width:95%;
+	margin:0 auto;
+/*	background-color:#CFDF9B;*/
+}
+
+#header{
+	width:100%
+	height:300px;
+	border:10px;
+	padding:10px;
+	border-radius: 5px;
+	background-color:#148246;/*6633FF;*/
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size: 1em;
+	color:white;
+	font-weight:bold;
+}
+
+#header a {
+	text-decoration:none;
+	color:white;
+}
+
+#header a:hover {
+	text-decoration:none;
+	color:#FF66FF;
+}
+
+#header h1, h2, h3 {
+	color:white;
+	}
+
+#header h1 {
+	font-size:2.5em;
+	font-weight:bold;
+	margin:0;
+	padding:20px 30px 0px;
+}
+
+#header h2 {
+	padding:20px 30px 0px;
+	}
+
+#header img {
+	float:right;
+	}
+
+#editorial {
+	width:75%;
+	float:right;
+	margin:0;
+	padding:10px 20px 0 0;
+	color:black;
+}
+
+#editorial a {
+	text-decoration:none;
+}	
+
+#editorial img {
+	float:left;
+	padding:0 20px 0 0;
+}
+
+#catch {
+	width:88px;
+	alignment-adjust:middle;
+	margin:10px auto;
+}
+
+
+#entryForm {
+	border: black solid thin;
+	width:95%;
+}
+
+#entryForm td {
+	border: black solid thin;
+	height:2em;
+}
+
+#entryContact {
+	margin: auto auto auto 15.5pt;
+	width: 100%;
+}	
+
+#entryContact {
+	border-width: medium medium 1pt;
+	border-style: none none solid;
+	border-color: #000000 #000000 gray;
+	padding: 0cm 8pt;
+	height: 1.2em;
+	background-color: transparent;
+	text-align:start;
+}
+
+#msg {
+	width:100%;
+	float:left;
+	border-width: medium;
+	border-style: solid;
+	border-color: blue;
+	border-radius: 10px;  
+	padding: 0cm 8pt;
+	background-color: white;
+	color: blue;
+}
+.centre {
+	text-align: center;
+	
+}
+.us {
+	border-bottom:1px black solid;
+	border-style: none none solid;
+	
+}	
+	
+#support img {
+	float:right;
+	padding:4px 20px 10px 0;
+}
+#side {
+	float:left;
+	width:20%;
+	margin:18px 0 0 2px;
+	color:white;
+	background-color:#148246;/*6633FF;*/
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size: 0.8em;
+	line-height: 2.0em;
+	border-radius: 5px;
+}	
+
+
+#side ul {
+	margin:0;
+	padding:0;
+}
+
+#side ul li {
+	list-style:none;
+	font-size:1em;
+	padding-left:6px;
+}
+
+#side ul li a {
+	text-decoration:none;
+	color:white;
+}
+
+#side ul ul {
+	display:none;
+}
+
+#side ul li:hover {
+	color:#FFFF00;
+	background-color:#8653FF;
+	font-weight:bold;
+}
+
+#side ul li:hover ul {
+	display:block;
+}
+/*** set the width and height to match your images **/
+
+#slideshow {
+    position:relative;
+    height:256px;
+}
+
+#slideshow DIV {
+    position:absolute;
+    top:0;
+    left:0;
+    z-index:8;
+    opacity:0.0;
+    height: 256px;
+    background-color: #FFF;
+}
+
+#slideshow DIV.active {
+    z-index:10;
+    opacity:1.0;
+}
+
+#slideshow DIV.last-active {
+    z-index:9;
+}
+
+#slideshow DIV IMG {
+    height: 256px;
+    display: block;
+    border: 0;
+    margin-bottom: 10px;
+}
+
