@@ -73,8 +73,8 @@ float:right;
 }	
 
 #editorial img {
-	float:left;
-	padding:0 20px 0 0;
+	float:right;
+	padding: 0 0 0 20px;
 }
 
 #catch {
