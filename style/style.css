@@ -114,15 +114,16 @@ float:right;
 }
 
 #msg {
-	width:100%;
-	float:left;
+	width: 100%;
+	float: left;
 	border-width: medium;
 	border-style: solid;
 	border-color: blue;
-	border-radius: 10px;  
+	border-radius: 10px;
 	padding: 0cm 8pt;
 	background-color: white;
 	color: blue;
+	font-size: x-large;
 }
 .centre {
 	text-align: center;
